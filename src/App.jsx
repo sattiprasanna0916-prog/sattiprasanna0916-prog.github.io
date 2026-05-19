@@ -328,11 +328,7 @@ function App() {
             GitHub
           </a>
 
-          <button
-            className="border border-gray-700 text-gray-400 px-5 py-3 rounded-xl cursor-not-allowed"
-          >
-            Live Demo Soon
-          </button>
+          
 
         </div>
 
@@ -372,11 +368,7 @@ function App() {
             GitHub
           </a>
 
-          <button
-            className="border border-gray-700 text-gray-400 px-5 py-3 rounded-xl cursor-not-allowed"
-          >
-            Live Demo Soon
-          </button>
+          
 
         </div>
 
