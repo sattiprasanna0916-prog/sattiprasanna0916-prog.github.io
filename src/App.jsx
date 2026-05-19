@@ -280,52 +280,113 @@ function App() {
       </section>
 
       {/* Projects */}
-      <section
-        id="projects"
-        className="bg-[#111111] py-24 px-6"
-      >
+<section
+  id="projects"
+  className="bg-[#111111] py-24 px-6"
+>
 
-        <div className="max-w-7xl mx-auto">
+  <div className="max-w-7xl mx-auto">
 
-          <h2 className="text-4xl font-bold mb-16 text-center text-cyan-400">
-            Projects
-          </h2>
+    <h2 className="text-4xl font-bold mb-16 text-center text-cyan-400">
+      Projects
+    </h2>
 
-          <div className="grid md:grid-cols-2 gap-8">
+    <div className="grid md:grid-cols-2 gap-8">
 
-            <div className="bg-black p-8 rounded-2xl border border-gray-800">
+      {/* Project 1 */}
+      <div className="bg-black p-8 rounded-2xl border border-gray-800 hover:border-cyan-500 transition duration-300">
 
-              <h3 className="text-2xl font-bold mb-4">
-                AI-Powered Interview Feedback Generator
-              </h3>
+        <h3 className="text-2xl font-bold mb-4">
+          AI-Powered Interview Feedback Generator
+        </h3>
 
-              <p className="text-gray-400 leading-8">
-                Built full-stack application integrating Groq
-                (Llama3-70B) for real-time speech analysis
-                and feedback generation.
-              </p>
+        <p className="text-cyan-400 mb-4">
+          Groq API • React • Node.js • LLMs
+        </p>
 
-            </div>
+        <p className="text-gray-400 leading-8">
+          Built a full-stack AI interview feedback platform integrating
+          Groq (Llama3-70B) for real-time speech analysis and intelligent
+          feedback generation.
+        </p>
 
-            <div className="bg-black p-8 rounded-2xl border border-gray-800">
+        <ul className="mt-6 text-gray-400 space-y-2">
+          <li>• Real-time speech analysis</li>
+          <li>• AI-generated interview suggestions</li>
+          <li>• Token streaming support</li>
+          <li>• Deployed scalable architecture</li>
+        </ul>
 
-              <h3 className="text-2xl font-bold mb-4">
-                E-commerce Web App
-              </h3>
+        <div className="mt-8 flex gap-4">
 
-              <p className="text-gray-400 leading-8">
-                Developed full-stack e-commerce platform
-                with authentication, product catalog,
-                cart, and order management.
-              </p>
+          <a
+            href="https://github.com/sattiprasanna0916-prog/SpeakSmart-AI-Interview-Coach"
+            target="_blank"
+            className="inline-flex items-center gap-2 bg-cyan-500 hover:bg-cyan-600 px-5 py-3 rounded-xl font-semibold transition"
+          >
+            <FaGithub />
+            GitHub
+          </a>
 
-            </div>
-
-          </div>
+          <button
+            className="border border-gray-700 text-gray-400 px-5 py-3 rounded-xl cursor-not-allowed"
+          >
+            Live Demo Soon
+          </button>
 
         </div>
 
-      </section>
+      </div>
+
+      {/* Project 2 */}
+      <div className="bg-black p-8 rounded-2xl border border-gray-800 hover:border-cyan-500 transition duration-300">
+
+        <h3 className="text-2xl font-bold mb-4">
+          E-commerce Web App
+        </h3>
+
+        <p className="text-cyan-400 mb-4">
+          Django • SQLite • Full Stack
+        </p>
+
+        <p className="text-gray-400 leading-8">
+          Developed a full-stack e-commerce platform with authentication,
+          product catalog, cart management, and order tracking features.
+        </p>
+
+        <ul className="mt-6 text-gray-400 space-y-2">
+          <li>• User authentication system</li>
+          <li>• Product search and filters</li>
+          <li>• Cart and order management</li>
+          <li>• Responsive modern UI</li>
+        </ul>
+
+        <div className="mt-8 flex gap-4">
+
+          <a
+            href="https://github.com/sattiprasanna0916-prog/mystore"
+            target="_blank"
+            className="inline-flex items-center gap-2 bg-cyan-500 hover:bg-cyan-600 px-5 py-3 rounded-xl font-semibold transition"
+          >
+            <FaGithub />
+            GitHub
+          </a>
+
+          <button
+            className="border border-gray-700 text-gray-400 px-5 py-3 rounded-xl cursor-not-allowed"
+          >
+            Live Demo Soon
+          </button>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
 
       {/* Certifications */}
 <section
